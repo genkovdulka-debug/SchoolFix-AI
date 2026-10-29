@@ -1,0 +1,400 @@
+{
+  "issues": [
+    {
+      "id": "SF-1001",
+      "title": "Broken classroom chair",
+      "description": "The back support of a chair in Room 204 has snapped and the chair is unsafe to sit on.",
+      "category": "Furniture",
+      "building": "Building A",
+      "room": "204",
+      "status": "Assigned",
+      "priority": "Low",
+      "reportedById": "u1",
+      "reportedByName": "Maria Santos",
+      "createdAt": "2026-10-26T08:30:00.000Z",
+      "updatedAt": "2026-10-26T10:30:00.000Z",
+      "assignedTeam": "Maintenance",
+      "assignedToId": "u4",
+      "assignedToName": "Joel Ramos",
+      "resolution": "",
+      "notes": [],
+      "timeline": [
+        {
+          "id": "SF-1001-t0",
+          "status": "Submitted",
+          "author": "Maria Santos",
+          "date": "2026-10-26T08:30:00.000Z",
+          "text": "Report submitted"
+        },
+        {
+          "id": "SF-1001-t1",
+          "status": "Assigned",
+          "author": "Elena Garcia",
+          "date": "2026-10-26T10:30:00.000Z",
+          "text": "Assigned to Maintenance"
+        }
+      ]
+    },
+    {
+      "id": "SF-1002",
+      "title": "Computer will not start",
+      "description": "Computer station 14 shows a black screen and does not respond when the power button is pressed.",
+      "category": "Computers \u0026 Devices",
+      "building": "Computer Lab",
+      "room": "301",
+      "status": "In Progress",
+      "priority": "High",
+      "reportedById": "u2",
+      "reportedByName": "Daniel Reyes",
+      "createdAt": "2026-10-24T07:45:00.000Z",
+      "updatedAt": "2026-10-24T09:45:00.000Z",
+      "assignedTeam": "IT Support",
+      "assignedToId": "u3",
+      "assignedToName": "Alex Cruz",
+      "resolution": "",
+      "notes": [
+        {
+          "id": "n-1",
+          "author": "Alex Cruz",
+          "text": "Checked the power cable and outlet. Testing the power supply next.",
+          "date": "2026-10-24T10:15:00.000Z"
+        }
+      ],
+      "timeline": [
+        {
+          "id": "SF-1002-t0",
+          "status": "Submitted",
+          "author": "Daniel Reyes",
+          "date": "2026-10-24T07:45:00.000Z",
+          "text": "Report submitted"
+        },
+        {
+          "id": "SF-1002-t1",
+          "status": "Assigned",
+          "author": "Elena Garcia",
+          "date": "2026-10-24T08:45:00.000Z",
+          "text": "Assigned to IT Support"
+        },
+        {
+          "id": "SF-1002-t2",
+          "status": "In Progress",
+          "author": "Alex Cruz",
+          "date": "2026-10-24T09:45:00.000Z",
+          "text": "Status changed to In Progress"
+        }
+      ]
+    },
+    {
+      "id": "SF-1003",
+      "title": "Projector not displaying",
+      "description": "The ceiling projector turns on but shows \"No Signal\" even with the HDMI cable connected.",
+      "category": "Projectors \u0026 AV",
+      "building": "Building B",
+      "room": "112",
+      "status": "Submitted",
+      "priority": "Medium",
+      "reportedById": "u2",
+      "reportedByName": "Daniel Reyes",
+      "createdAt": "2026-10-28T13:10:00.000Z",
+      "updatedAt": "2026-10-28T13:10:00.000Z",
+      "assignedTeam": "",
+      "assignedToId": "",
+      "assignedToName": "",
+      "resolution": "",
+      "notes": [],
+      "timeline": [
+        {
+          "id": "SF-1003-t0",
+          "status": "Submitted",
+          "author": "Daniel Reyes",
+          "date": "2026-10-28T13:10:00.000Z",
+          "text": "Report submitted"
+        }
+      ]
+    },
+    {
+      "id": "SF-1004",
+      "title": "Faulty classroom light",
+      "description": "Two fluorescent tubes flicker constantly and make it hard to read the board.",
+      "category": "Electrical \u0026 Lighting",
+      "building": "Building A",
+      "room": "108",
+      "status": "In Progress",
+      "priority": "High",
+      "reportedById": "u1",
+      "reportedByName": "Maria Santos",
+      "createdAt": "2026-10-23T09:00:00.000Z",
+      "updatedAt": "2026-10-23T11:00:00.000Z",
+      "assignedTeam": "Maintenance",
+      "assignedToId": "u4",
+      "assignedToName": "Joel Ramos",
+      "resolution": "",
+      "notes": [
+        {
+          "id": "n-2",
+          "author": "Joel Ramos",
+          "text": "Replacement tubes ordered. Scheduled for installation tomorrow.",
+          "date": "2026-10-23T11:00:00.000Z"
+        }
+      ],
+      "timeline": [
+        {
+          "id": "SF-1004-t0",
+          "status": "Submitted",
+          "author": "Maria Santos",
+          "date": "2026-10-23T09:00:00.000Z",
+          "text": "Report submitted"
+        },
+        {
+          "id": "SF-1004-t1",
+          "status": "Assigned",
+          "author": "Elena Garcia",
+          "date": "2026-10-23T10:00:00.000Z",
+          "text": "Assigned to Maintenance"
+        },
+        {
+          "id": "SF-1004-t2",
+          "status": "In Progress",
+          "author": "Joel Ramos",
+          "date": "2026-10-23T11:00:00.000Z",
+          "text": "Status changed to In Progress"
+        }
+      ]
+    },
+    {
+      "id": "SF-1005",
+      "title": "Laboratory internet problem",
+      "description": "No network connection at the front lab benches. Wired and Wi-Fi both fail.",
+      "category": "Network \u0026 Internet",
+      "building": "Science Lab",
+      "room": "210",
+      "status": "Resolved",
+      "priority": "High",
+      "reportedById": "u2",
+      "reportedByName": "Daniel Reyes",
+      "createdAt": "2026-10-19T10:20:00.000Z",
+      "updatedAt": "2026-10-19T12:20:00.000Z",
+      "assignedTeam": "IT Support",
+      "assignedToId": "u3",
+      "assignedToName": "Alex Cruz",
+      "resolution": "Replaced a faulty network switch port and verified connectivity at every bench.",
+      "notes": [
+        {
+          "id": "n-3",
+          "author": "Alex Cruz",
+          "text": "Found a dead switch port in the lab cabinet.",
+          "date": "2026-10-19T12:00:00.000Z"
+        }
+      ],
+      "timeline": [
+        {
+          "id": "SF-1005-t0",
+          "status": "Submitted",
+          "author": "Daniel Reyes",
+          "date": "2026-10-19T10:20:00.000Z",
+          "text": "Report submitted"
+        },
+        {
+          "id": "SF-1005-t1",
+          "status": "Assigned",
+          "author": "Elena Garcia",
+          "date": "2026-10-19T11:20:00.000Z",
+          "text": "Assigned to IT Support"
+        },
+        {
+          "id": "SF-1005-t2",
+          "status": "In Progress",
+          "author": "Alex Cruz",
+          "date": "2026-10-19T11:50:00.000Z",
+          "text": "Status changed to In Progress"
+        },
+        {
+          "id": "SF-1005-t3",
+          "status": "Resolved",
+          "author": "Alex Cruz",
+          "date": "2026-10-19T12:20:00.000Z",
+          "text": "Status changed to Resolved"
+        }
+      ]
+    },
+    {
+      "id": "SF-1006",
+      "title": "Leaking restroom faucet",
+      "description": "The second faucet from the left drips constantly and the floor is wet.",
+      "category": "Plumbing",
+      "building": "Building C",
+      "room": "Restroom 2F",
+      "status": "Assigned",
+      "priority": "Medium",
+      "reportedById": "u1",
+      "reportedByName": "Maria Santos",
+      "createdAt": "2026-10-27T06:55:00.000Z",
+      "updatedAt": "2026-10-27T08:55:00.000Z",
+      "assignedTeam": "Maintenance",
+      "assignedToId": "u4",
+      "assignedToName": "Joel Ramos",
+      "resolution": "",
+      "notes": [],
+      "timeline": [
+        {
+          "id": "SF-1006-t0",
+          "status": "Submitted",
+          "author": "Maria Santos",
+          "date": "2026-10-27T06:55:00.000Z",
+          "text": "Report submitted"
+        },
+        {
+          "id": "SF-1006-t1",
+          "status": "Assigned",
+          "author": "Elena Garcia",
+          "date": "2026-10-27T08:55:00.000Z",
+          "text": "Assigned to Maintenance"
+        }
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat-1",
+      "name": "Furniture",
+      "defaultTeam": "Maintenance",
+      "description": "Chairs, desks, doors, and windows"
+    },
+    {
+      "id": "cat-2",
+      "name": "Computers \u0026 Devices",
+      "defaultTeam": "IT Support",
+      "description": "Computers, printers, and peripherals"
+    },
+    {
+      "id": "cat-3",
+      "name": "Projectors \u0026 AV",
+      "defaultTeam": "IT Support",
+      "description": "Projectors, speakers, and displays"
+    },
+    {
+      "id": "cat-4",
+      "name": "Electrical \u0026 Lighting",
+      "defaultTeam": "Maintenance",
+      "description": "Lights, outlets, and wiring"
+    },
+    {
+      "id": "cat-5",
+      "name": "Plumbing",
+      "defaultTeam": "Maintenance",
+      "description": "Faucets, pipes, and restrooms"
+    },
+    {
+      "id": "cat-6",
+      "name": "Network \u0026 Internet",
+      "defaultTeam": "IT Support",
+      "description": "Wi-Fi, switches, and connectivity"
+    }
+  ],
+  "teams": [
+    {
+      "id": "team-1",
+      "name": "IT Support",
+      "leadId": "u3",
+      "members": 4,
+      "handles": "Computers, AV equipment, and network problems"
+    },
+    {
+      "id": "team-2",
+      "name": "Maintenance",
+      "leadId": "u4",
+      "members": 6,
+      "handles": "Furniture, electrical, and plumbing problems"
+    }
+  ],
+  "users": [
+    {
+      "id": "u1",
+      "name": "Maria Santos",
+      "email": "maria.santos@school.demo",
+      "role": "student",
+      "active": true,
+      "phone": "0917 000 0001",
+      "department": "Grade 11 - STEM"
+    },
+    {
+      "id": "u2",
+      "name": "Daniel Reyes",
+      "email": "daniel.reyes@school.demo",
+      "role": "teacher",
+      "active": true,
+      "phone": "0917 000 0002",
+      "department": "Science Department"
+    },
+    {
+      "id": "u3",
+      "name": "Alex Cruz",
+      "email": "alex.cruz@school.demo",
+      "role": "it_support",
+      "active": true,
+      "phone": "0917 000 0003",
+      "department": "IT Support Team"
+    },
+    {
+      "id": "u4",
+      "name": "Joel Ramos",
+      "email": "joel.ramos@school.demo",
+      "role": "maintenance",
+      "active": true,
+      "phone": "0917 000 0004",
+      "department": "Maintenance Team"
+    },
+    {
+      "id": "u5",
+      "name": "Elena Garcia",
+      "email": "elena.garcia@school.demo",
+      "role": "admin",
+      "active": true,
+      "phone": "0917 000 0005",
+      "department": "School Administration"
+    },
+    {
+      "id": "u6",
+      "name": "Paolo Lim",
+      "email": "paolo.lim@school.demo",
+      "role": "student",
+      "active": true
+    },
+    {
+      "id": "u7",
+      "name": "Rina Dela Cruz",
+      "email": "rina.delacruz@school.demo",
+      "role": "teacher",
+      "active": true
+    },
+    {
+      "id": "u8",
+      "name": "Kim Torres",
+      "email": "kim.torres@school.demo",
+      "role": "maintenance",
+      "active": false
+    }
+  ],
+  "notifications": [
+    {
+      "id": "n8",
+      "title": "Welcome to SchoolFix AI",
+      "message": "This is a demo notification. Mark it as read to try the feature.",
+      "createdAt": "2026-10-20T08:00:00.000Z",
+      "read": false,
+      "roles": [
+        "student",
+        "teacher",
+        "it_support",
+        "maintenance",
+        "admin"
+      ],
+      "issueId": ""
+    }
+  ],
+  "settings": {
+    "overdueDays": 3,
+    "notifyOnAssignment": true,
+    "notifyOnStatusChange": true
+  }
+}
